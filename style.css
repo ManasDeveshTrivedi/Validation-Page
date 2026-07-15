@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+    background: #003153;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+#heading{
+    text-align: center;
+}
+.container{
+    background-color: #BAE6FD;
+    padding: 10px;
+    width: 300px;
+    border-radius: 8px;
+}
+input{
+    align-self:auto;
+    width: 90%;
+    padding: 10px;
+    background: #E0FFFF;
+    margin: 4px;
+    border: none;
+    border-radius: 5px;
+}
+button{
+    display: block;
+    margin: 20px auto;  
+    width:80%;
+    background:#E0FFFF;
+    cursor:pointer;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:#003153;
+    color: white;
+}
